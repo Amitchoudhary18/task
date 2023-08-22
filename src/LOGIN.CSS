@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightslategray;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20201028/pngtree-abstract-technology-background-technical-electric-image_443494.jpg);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px black;
+    text-align: center;
+    width: 600px;
+    height: 220px;
+}
+
+h1 {
+
+
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    margin-top: -20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 155px;
+    background-color: #ffffff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+   
+
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.error-message {
+    color: #ff0000;
+    margin-top: 10px;
+}
